@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* ---- RAW COLORS ---- */
+  --color-white: #fff;
+  --color-gray-600: #717fa6;
+  --color-purple-500: #766cf1;
+  --color-blue-950: #1f2e55;
+  --color-blue-700: #382ae1;
+  --color-blue-150: #d6e1ff;
+  --color-blue-100: #e0e8ff;
+  --color-blue-50: #f7f9ff;
+
+  /* ---- SEMANTIC COLORS ---- */
+  --color-bg-main: var(--color-blue-100);
+  --color-bg-card: var(--color-white);
+  --color-bg-plan: var(--color-blue-50);
+  --color-text-primary: var(--color-blue-950);
+  --color-text-secondary: var(--color-gray-600);
+  --color-accent: var(--color-blue-700);
+  --color-accent-hover: var(--color-purple-500);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+}
+
+.card__img {
+}
+
+.card__title {
+}
+
+.card__description {
+}
+
+.card__plan-container {
+}
+
+.card__plan {
+}
+
+.card__plan-img {
+}
+
+.card__plan-data {
+}
+
+.card__plan-type {
+}
+
+.card__plan-price {
+}
+
+.card__plan-action {
+}
+
+.card__btn {
+}
+
+.card__cancel {
+}
