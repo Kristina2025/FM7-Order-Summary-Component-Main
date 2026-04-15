@@ -187,11 +187,12 @@ body {
 
   .card__description {
     font-size: 1rem;
+    margin-top: 0.9rem;
   }
 
   .card__plan-container {
     margin-top: 1rem;
-    padding: 1.5rem;
+    padding: 1.438rem 1.5rem;
   }
 
   .card__plan-type {
