@@ -24,8 +24,7 @@
   --color-bg-plan: var(--color-blue-50);
   --color-text-primary: var(--color-blue-950);
   --color-text-secondary: var(--color-gray-600);
-  --color-text-tertiary: var(--color-white);
-  --color-text-quartary: var(--color-black);
+  --color-text-inverse: var(--color-white);
   --color-accent: var(--color-blue-700);
   --color-accent-hover: var(--color-purple-500);
 }
@@ -46,7 +45,7 @@ body {
   width: 100%;
   max-width: 20.438rem;
   border-radius: 20px;
-  background-color: var(--color-white);
+  background-color: var(--color-bg-card);
   box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 15.18%);
 }
 
@@ -133,7 +132,7 @@ body {
   width: 100%;
   padding: 0.781rem;
   background-color: var(--color-accent);
-  color: var(--color-text-tertiary);
+  color: var(--color-text-inverse);
   font-size: 0.938rem;
   font-weight: 900;
   line-height: 1.65;
@@ -163,7 +162,7 @@ body {
 
 .card__cancel:hover,
 .card__cancel:focus-visible {
-  color: var(--color-text-quartary);
+  color: var(--color-black);
 }
 
 /* --------------- TABLET --------------- */
@@ -218,5 +217,3 @@ body {
     margin-top: 2rem;
   }
 }
-
-/* Taller for 4 px */
